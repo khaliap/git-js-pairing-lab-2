@@ -14,6 +14,21 @@ function absoluteValue(num){
         return 'null'
 
 }
+function multiplesOfFourOrSeven(){
+    for (let i = 0; i<= 100; i++){
+        if(i%4 === 0 || i%7 === 0){
+            console.log(i)
+        }
+    }
+}
+
+
+
+
+
+
+
 
 //oneHundredToFive()
-console.log(absoluteValue('r'));
+//console.log(absoluteValue('r'));
+multiplesOfFourOrSeven();
