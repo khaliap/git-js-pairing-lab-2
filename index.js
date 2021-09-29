@@ -1,7 +1,7 @@
 //1
 function oneHundredToFive(){
     for (let i = 100; i >= 5; i--){
-        console.log(i)
+        console.log(i);
     }
     
 }
@@ -14,12 +14,24 @@ function absoluteValue(num){
         return 'null'
 
 }
+
+//3
 function multiplesOfFourOrSeven(){
     for (let i = 0; i<= 100; i++){
         if(i%4 === 0 || i%7 === 0){
-            console.log(i)
+            console.log(i);
         }
     }
+}
+
+//4
+function square(num){
+    let sqr = num*num;
+    let sqrt = Math.sqrt(num);
+    if(Number.isInteger(sqrt)){
+        return sqrt;
+    }else 
+        return sqr;
 }
 
 
@@ -27,8 +39,7 @@ function multiplesOfFourOrSeven(){
 
 
 
-
-
-//oneHundredToFive()
+//oneHundredToFive();
 //console.log(absoluteValue('r'));
-multiplesOfFourOrSeven();
+//multiplesOfFourOrSeven();
+console.log(square(25))
